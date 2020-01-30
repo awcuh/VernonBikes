@@ -1,5 +1,5 @@
 <?php
-$handl = fopen("counter.txt", "r");
+$handle = fopen("counter.txt", "r");
 if(!$handle){
 echo "could not open the file" ;
 }
